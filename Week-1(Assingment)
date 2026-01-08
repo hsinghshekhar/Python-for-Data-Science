@@ -1,0 +1,6 @@
+(1) Which of the following variable names are INVALID in Python?
+(a)1_variable
+(b)variable_1
+(c)variable1
+(d)variable#
+Ans- #is reserved for comments in Python, variable name is defined by upperlatter/lowerlatter with underscore(_) and start with latter. so option-a,d are invalied variable.
