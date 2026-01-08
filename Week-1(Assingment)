@@ -4,3 +4,24 @@
 (c)variable1
 (d)variable#
 Ans- #is reserved for comments in Python, variable name is defined by upperlatter/lowerlatter with underscore(_) and start with latter. so option-a,d are invalied variable.
+
+(2) Which of the following operators have lower precedence than “not” in Python?
+ (a)+
+ (b)and
+ (c)==
+ (d)|
+Ans-
+
+(3) What will be the output of the following code?
+a = 10
+b = 5
+print(a**b%3)
+(a)0 (b) 100 (c)1 (d)2
+Ans-(a power b) mod 3 is 1
+
+(4)What will be the output of the following code snippet?
+g r e e t i n g s = ”Namaste”
+g r e e t i n g s_1 = f l o a t ( g r e e t i n g s )
+p r i n t ( type ( g r e e t i n g s_1 ) )
+(a)int (b)float (c)str (d) Code will throw an error
+Ans-(d),The Python code will result in a ValueError because the float() function cannot convert the non-numeric string "Namaste" into a floating-point number.
