@@ -25,3 +25,13 @@ g r e e t i n g s_1 = f l o a t ( g r e e t i n g s )
 p r i n t ( type ( g r e e t i n g s_1 ) )
 (a)int (b)float (c)str (d) Code will throw an error
 Ans-(d),The Python code will result in a ValueError because the float() function cannot convert the non-numeric string "Namaste" into a floating-point number.
+
+(5)Given two variables, j = 6 and g = 3.3. If both normal division and floor division operators were used to divide j by g, what would be the data type of the value obtained from the operations?
+(a)int,int (b)float,float (c)float,int (d)int,float
+Ans-j=6
+g=3.3
+print(j/g)
+print(type(j/g))
+print(j//g)
+print(type(j//g))
+we get both float type, (b)
