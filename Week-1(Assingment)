@@ -10,7 +10,7 @@ Ans- #is reserved for comments in Python, variable name is defined by upperlatte
  (b)and
  (c)==
  (d)|
-Ans-
+Ans-b
 
 (3) What will be the output of the following code?
 a = 10
@@ -20,9 +20,9 @@ print(a**b%3)
 Ans-(a power b) mod 3 is 1
 
 (4)What will be the output of the following code snippet?
-g r e e t i n g s = ”Namaste”
-g r e e t i n g s_1 = f l o a t ( g r e e t i n g s )
-p r i n t ( type ( g r e e t i n g s_1 ) )
+greetings = ”Namaste”
+greetings_1 = float(greetings)
+print(type(greetings_1))
 (a)int (b)float (c)str (d) Code will throw an error
 Ans-(d),The Python code will result in a ValueError because the float() function cannot convert the non-numeric string "Namaste" into a floating-point number.
 
@@ -35,3 +35,51 @@ print(type(j/g))
 print(j//g)
 print(type(j//g))
 we get both float type, (b)
+
+(6)What will be the output of the following code snippet?
+a = ”10”
+b=float(a)+5
+result=str(b)+"123"
+print(type(result))
+(a)<c l a s s ’ f l o a t ’>  (b)<c l a s s ’ s t r ’>   (c)<c l a s s ’ i n t ’>    (d)The code will give an error.
+ANS-a = "10": a is a string containing the characters '1' and '0'. b = float(a) + 5: float(a) converts "10" to the floating-point number 10.0. Then 10.0 + 5 results in 15.0, so b becomes 15.0 (a float).
+result = str(b) + "123": str(b) converts the float 15.0 into the string "15.0". Then, "15.0" is concatenated (joined) with "123" to form the string "15.0123", so result becomes "15.0123" (a string).
+This prints the data type of the result variable, which is a string. 
+
+(7)What will be the output of the following code snippet?
+a = 15
+b = 3
+c = 4
+result=a+b*c//(c%b)-5
+print(result)
+(a)20 (b)1 (c)22 (d)0
+Ans-22
+
+(8)What is the output of the following code snippet?
+a=4
+b=5
+a*=b*2
+print(a)
+(a)10 (b)20 (c)25 (d)40
+Ans-The code calculates a as 4 * (5 * 2), which results in 40, so the output when print(a) is executed will be 40, because a *= (b * 2)
+
+(9)What is the output of the following code snippet? 
+a=3
+b=5
+c=(a==3) and (b==5) or (a!=3)
+print(c)
+(a)True (b)False (c)Error
+Ans-true
+
+(10)Let a = 5 (101 in binary) and b = 3 (011 in binary). What is the result of the following operation?
+a=5
+b=3
+print(a&b)
+(a)3 (b)7 (c)5 (d)1
+Ans-1
+
+
+
+
+
+
